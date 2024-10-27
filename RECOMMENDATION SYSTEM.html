@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Get Your Movie Recommendations 🎬</h1>
+            <p>Choose your favorite genres and discover amazing movies!</p>
+        </header>
+
+        <div class="preference-section">
+            <h2>Your Preferences</h2>
+            <div class="checkbox-group">
+                <label><input type="checkbox" value="action"> Action</label>
+                <label><input type="checkbox" value="comedy"> Comedy</label>
+                <label><input type="checkbox" value="drama"> Drama</label>
+                <label><input type="checkbox" value="romance"> Romance</label>
+                <label><input type="checkbox" value="thriller"> Thriller</label>
+            </div>
+            <button id="recommendBtn">Get Recommendations</button>
+        </div>
+
+        <div class="recommendation-section">
+            <h2>Recommended Movies</h2>
+            <div id="recommendations" class="recommendations-grid">
+                <!-- Recommendations will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
